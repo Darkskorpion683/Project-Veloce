@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"calculateOptimalShiftPoints",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"calculateOptimalShiftPoints",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
