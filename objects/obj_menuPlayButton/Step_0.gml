@@ -1,5 +1,6 @@
-btn_hovered = point_in_rectangle(mouse_x, mouse_y, btn_x, btn_y, btn_x + btn_width, btn_y + btn_height);
-btn2_hovered = point_in_rectangle(mouse_x, mouse_y, btn_x, btn_y + 60, btn_x + btn_width, btn_y + btn_height + 60);
+btn_hovered = point_in_rectangle(mouse_x, mouse_y, btn_x + 20, btn_y + 240, btn_x + 110 + btn_width, btn_y + btn_height + 260);
+btn2_hovered = point_in_rectangle(mouse_x, mouse_y, btn_x, btn_y + 310, btn_x + 110 + btn_width, btn_y + btn_height + 340);
+
 
 // On click: trigger flash
 if (btn_hovered && mouse_check_button_pressed(mb_left)) {
