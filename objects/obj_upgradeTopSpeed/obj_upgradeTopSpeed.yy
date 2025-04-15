@@ -10,8 +10,8 @@
   "name":"obj_upgradeTopSpeed",
   "overriddenProperties":[],
   "parent":{
-    "name":"UpgradeButtons",
-    "path":"folders/Objects/UpgradeButtons.yy",
+    "name":"UpgradeMenu",
+    "path":"folders/Objects/UpgradeMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

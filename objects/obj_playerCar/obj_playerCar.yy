@@ -44,5 +44,5 @@
     "path":"sprites/spr_playerCar/spr_playerCar.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

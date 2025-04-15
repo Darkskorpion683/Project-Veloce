@@ -10,8 +10,8 @@
   "name":"obj_upgradeWeight",
   "overriddenProperties":[],
   "parent":{
-    "name":"UpgradeButtons",
-    "path":"folders/Objects/UpgradeButtons.yy",
+    "name":"UpgradeMenu",
+    "path":"folders/Objects/UpgradeMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TempUpgradeButton",
-    "path":"sprites/spr_TempUpgradeButton/spr_TempUpgradeButton.yy",
+    "name":"spr_TempUpgradeButton_3",
+    "path":"sprites/spr_TempUpgradeButton_3/spr_TempUpgradeButton_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_TempBackground",
+  "%Name":"spr_TempUpgradeButton_3",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"11345215-b3e3-42a5-879b-e82088d9a692","name":"11345215-b3e3-42a5-879b-e82088d9a692","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"86af5c7b-1f6e-469d-b8a4-dc4c1667d487","name":"86af5c7b-1f6e-469d-b8a4-dc4c1667d487","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a5d0338c-033a-4bcf-a69e-cd8dc5e2bcc6","blendMode":0,"displayName":"default","isLocked":false,"name":"a5d0338c-033a-4bcf-a69e-cd8dc5e2bcc6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cc986017-95cd-44b5-90bd-1e5fa8dec0af","blendMode":0,"displayName":"default","isLocked":false,"name":"cc986017-95cd-44b5-90bd-1e5fa8dec0af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_TempBackground",
+  "name":"spr_TempUpgradeButton_3",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_TempBackground",
+    "%Name":"spr_TempUpgradeButton",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_TempBackground",
+    "name":"spr_TempUpgradeButton",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11345215-b3e3-42a5-879b-e82088d9a692","path":"sprites/spr_TempBackground/spr_TempBackground.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35f30b97-707a-44cd-984b-d4bb04e7e68b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"86af5c7b-1f6e-469d-b8a4-dc4c1667d487","path":"sprites/spr_TempUpgradeButton_3/spr_TempUpgradeButton_3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3f890703-7866-4ec6-b5cb-607d679a2412","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
