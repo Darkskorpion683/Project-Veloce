@@ -1,4 +1,5 @@
-depth = -1000
+pldepth = -1000
+layer_depth("Instances", pldepth)
 gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9]; // More realistic ratios
 maxGear = array_length(gearRatios);
 
