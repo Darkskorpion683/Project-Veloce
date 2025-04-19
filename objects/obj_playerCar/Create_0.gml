@@ -16,3 +16,6 @@ topSpeed = global.player_topSpeed
 weight = global.player_weight
 nitrous = global.player_nitrous
 transmission = global.player_transmission
+
+nitrous_used=false;
+nitrous_activated=false;
