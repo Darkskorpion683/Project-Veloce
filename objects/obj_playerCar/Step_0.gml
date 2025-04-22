@@ -37,7 +37,7 @@ if (!nitrous_used && keyboard_check_pressed(vk_shift)) {
 	prenitrous_acceleration = acceleration
     accelerationFactor += nitrous;
     nitrous_used = true;
-    alarm[0] = 10;
+    alarm[0] = 60;
 }
 
      
