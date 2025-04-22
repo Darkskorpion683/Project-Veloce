@@ -1,3 +1,4 @@
+if (global.freeze_gameplay) exit;
 // --- Get current gear ratio ---
 var ratio = gearRatios[gear - 1];
 rpm = currentSpeed * ratio * rpm_per_speed_unit;
@@ -18,11 +19,9 @@ x += currentSpeed / 5;
 
 // --- Shift up, adjust RPM based on new gear ratio ---
 if (gear < maxGear && keyboard_check_pressed(ord("E"))) {
-    var oldRatio = gearRatios[gear - 1];
     gear += 1;
     var newRatio = gearRatios[gear - 1];
-
-    rpm = clamp(currentSpeed * newRatio * rpm_per_speed_unit, rpm_idle, rpm_redline);
+	rpm = clamp(currentSpeed * newRatio * rpm_per_speed_unit, rpm_idle, rpm_redline);
 }
 
 if (gear > 1 && keyboard_check_pressed(ord("Q"))) {

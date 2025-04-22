@@ -1,6 +1,9 @@
 pldepth = -1000
 layer_depth("Instances", pldepth)
-gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9]; // More realistic ratios
+draw_set_font(-1);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9]; 
 maxGear = array_length(gearRatios);
 
 rpm_idle = 1000;
@@ -16,6 +19,7 @@ topSpeed = global.player_topSpeed
 weight = global.player_weight
 nitrous = global.player_nitrous
 transmission = global.player_transmission
+sprite_index = global.player_carBody
 
 nitrous_used=false;
 nitrous_activated=false;

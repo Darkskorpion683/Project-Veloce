@@ -4,7 +4,7 @@ depth = layerDepth
 y -= yOffset
 x += xOffset/2
 
-gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9]; // More realistic ratios
+gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9];
 maxGear = array_length(gearRatios);
 
 rpm_idle = 1000;

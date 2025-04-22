@@ -1,1 +1,0 @@
-if isFilled then sprite_index = spr_upgradeLightFilled;
