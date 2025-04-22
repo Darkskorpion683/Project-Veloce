@@ -1,6 +1,8 @@
+cam = view_camera[0];
+cam_w = camera_get_view_width(cam);
+cam_h = camera_get_view_height(cam);
+custom_capture_surface = -1;
 capture_requested = false;
-freeze_screen_now = false;
-global.freeze_camera = false;
-global.freeze_gameplay = false;
-global.freeze_cam_x = 0;
-global.freeze_cam_y = 0;
+delay_timer = 0; // Start at frame 0
+delay_duration = 10;
+scoreboardLoaded = false

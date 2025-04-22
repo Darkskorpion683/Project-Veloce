@@ -1,0 +1,1 @@
+barProgress = getUpgradeLevel(upgradeSelect);

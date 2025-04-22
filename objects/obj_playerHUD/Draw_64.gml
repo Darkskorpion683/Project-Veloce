@@ -51,20 +51,5 @@ draw_roundrect(bar_x, bar_y + 10, bar_x + bar_width, bar_y + 10 + bar_height, tr
 draw_roundrect(bar_x, bar_y + 20, bar_x + bar_width, bar_y + 20 + bar_height, true);
 draw_roundrect(bar_x, bar_y + 30, bar_x + bar_width, bar_y + 30 + bar_height, true);
 
-// Stop the race
-if obj_playerCar.x >= 19200 {
-	obj_playerCar.currentSpeed = 0
-	obj_playerCar.accelerationFactor = 0;
-	
-	obj_opponent1.currentSpeed = 0
-	obj_opponent1.accelerationFactor = 0;
-	
-	obj_opponent2.currentSpeed = 0
-	obj_opponent2.accelerationFactor = 0;
-	
-	obj_opponent3.currentSpeed = 0
-	obj_opponent3.accelerationFactor = 0;
-}
-
 
 draw_set_color(c_white)

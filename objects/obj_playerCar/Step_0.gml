@@ -1,4 +1,3 @@
-if (global.freeze_gameplay) exit;
 // --- Get current gear ratio ---
 var ratio = gearRatios[gear - 1];
 rpm = currentSpeed * ratio * rpm_per_speed_unit;

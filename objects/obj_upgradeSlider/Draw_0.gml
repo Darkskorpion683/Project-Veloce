@@ -27,11 +27,9 @@ for (var i = 0; i < array_length(buttons); i++) {
 	if (is_hovered && mouse_check_button_pressed(mb_left)) {
 		if (spr.scalex > 0 && barProgress > 1) {
 			barProgress--;
-			upgradeHandler(upgradeSelect, barProgress);
 		}
 		else if (spr.scalex < 0 && barProgress < 4) {
 			barProgress++;
-			upgradeHandler(upgradeSelect, barProgress);
 		}
 	}
 

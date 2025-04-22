@@ -1,1 +1,1 @@
-freeze_screen_now = true;
+capture_requested = true

@@ -8,7 +8,10 @@ if (!variable_global_exists("player_accelerationFactor")) {
 	global.player_carBody = spr_playerCar;
 	global.player_topSpeedLevel = 1
 	global.player_accelerationLevel = 1
+	global.player_weightLevel = 1
+	global.player_transmissionLevel = 1
 	global.player_nitrousLevel = 1
 	global.captured_sprite = spr_btn_credits
+	global.playerMoney = 0
 }
 

@@ -38,7 +38,7 @@
     {"$GMObjectProperty":"v1","%Name":"rpm","filters":[],"listItems":[],"multiselect":false,"name":"rpm","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1000","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"topSpeed","filters":[],"listItems":[],"multiselect":false,"name":"topSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"140","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"gear","filters":[],"listItems":[],"multiselect":false,"name":"gear","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"accelerationFactor","filters":[],"listItems":[],"multiselect":false,"name":"accelerationFactor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"accelerationFactor","filters":[],"listItems":[],"multiselect":false,"name":"accelerationFactor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"shiftRange","filters":[],"listItems":[],"multiselect":false,"name":"shiftRange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2000","varType":0,},
   ],
   "resourceType":"GMObject",

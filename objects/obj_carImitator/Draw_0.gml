@@ -42,7 +42,8 @@ for (var i = 0; i < array_length(buttons); i++) {
     // Draw button
     draw_sprite_ext(spr.sprite, spr.frame, draw_x, draw_y, sx, sy, 0, c_white, 1);
 }
-draw_text(x, y-200, ("Body Type   " + string(carIndex+1)));
 draw_set_font(fnt_button)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
+draw_text(x, y-200, ("Body Type   " + string(carIndex+1)));
+draw_set_font(-1);
