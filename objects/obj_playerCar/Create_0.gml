@@ -23,3 +23,4 @@ sprite_index = global.player_carBody
 
 nitrous_used=false;
 nitrous_activated=false;
+prenitrous_acceleration = 0;

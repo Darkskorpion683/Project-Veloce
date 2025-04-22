@@ -1,4 +1,5 @@
 if (nitrous_activated) {
-    currentSpeed -= nitrous;
+	accelerationFactor -= nitrous
+	acceleration = prenitrous_acceleration
     nitrous_activated = false;
 }

@@ -34,9 +34,10 @@ if (gear > 1 && keyboard_check_pressed(ord("Q"))) {
 }
 if (!nitrous_used && keyboard_check_pressed(vk_shift)) {
     nitrous_activated = true;
-    currentSpeed += nitrous;
+	prenitrous_acceleration = acceleration
+    accelerationFactor += nitrous;
     nitrous_used = true;
-    alarm[0] =  10;
+    alarm[0] = 10;
 }
 
      

@@ -49,16 +49,16 @@ function upgradeHandler(_selection, _level) {
         case 4:
             switch (_level) {
                 case 0:
-                    global.player_nitrous = 20;
+                    global.player_nitrous =.6;
                     break;
                 case 1:
-                    global.player_nitrous = 30;
+                    global.player_nitrous = .7;
                     break;
                 case 2:
-                    global.player_nitrous = 45;
+                    global.player_nitrous = .8;
                     break;
                 case 3:
-                    global.player_nitrous =60;
+                    global.player_nitrous = .9;
                     break;
             }
 			global.player_nitrousLevel = _level
