@@ -4,7 +4,7 @@ var btnH = 60;
 
 // Match button position (same as in Draw GUI)
 var btnX = obj_carImitator.x - btnW / 2;
-var btnY = obj_carImitator.y + 130;
+var btnY = obj_carImitator.y + 200;
 
 var mouse_x_gui = device_mouse_x_to_gui(0);
 var mouse_y_gui = device_mouse_y_to_gui(0);
@@ -29,4 +29,17 @@ if (hovered && mouse_check_button_pressed(mb_left)) {
     } else {
         show_debug_message("❌ Not enough money!");
     }
+}
+
+// ==== Start Race Button Click ====
+var raceBtnW = 240;
+var raceBtnH = 50;
+var raceBtnX = obj_carImitator.x - raceBtnW / 2;
+var raceBtnY = obj_carImitator.y + 280; // Match Draw GUI
+
+var raceHovered = mouse_x_gui > raceBtnX && mouse_x_gui < raceBtnX + raceBtnW &&
+                  mouse_y_gui > raceBtnY && mouse_y_gui < raceBtnY + raceBtnH;
+
+if (raceHovered && mouse_check_button_pressed(mb_left)) {
+    room_goto(rm_raceGameplay); // or your actual race room
 }
