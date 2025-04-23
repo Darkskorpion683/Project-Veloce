@@ -42,7 +42,20 @@ function upgradeHandler(_selection, _level) {
             break;
 
         case 3:
-            // Placeholder for future upgrade logic
+			switch (_level) {
+                case 0:
+                    global.player_weight = 3000;
+                    break;
+                case 1:
+                    global.player_weight = 2000;
+                    break;
+                case 2:
+                    global.player_weight = 1000;
+                    break;
+                case 3:
+                    global.player_weight = 0;
+                    break;
+            }
 			global.player_weightLevel = _level
             break;
 
