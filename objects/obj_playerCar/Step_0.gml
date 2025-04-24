@@ -1,12 +1,14 @@
 // Wheel Spin Out State
 if wheelSpin > 0 {
+	instance_activate_object(smoke)
 	stall = true
 	alarm[1] = wheelSpin
 	wheelSpin = 0
 } 
 
 if stall == false {
-	
+instance_deactivate_object(smoke)
+
 // Wheels tracking car body
 leftTire.x = (obj_playerCar.x - 39) + currentSpeed / 5 
 leftTire.y = obj_playerCar.y + 12
@@ -49,12 +51,19 @@ if (gear > 1 && keyboard_check_pressed(ord("Q"))) {
     rpm = clamp(estimatedRPM, rpm_idle, rpm_redline);
 }
 
+// Nitrous Activation Check
 if (!nitrous_used && keyboard_check_pressed(vk_shift)) {
     nitrous_activated = true;
+	instance_activate_object(nitrousFlame);
 	prenitrous_acceleration = acceleration
     accelerationFactor += nitrous;
     nitrous_used = true;
     alarm[0] = 20;
+}
+
+// Nitrous Flame tracking exhaust pipe
+if instance_exists(nitrousFlame) {
+	nitrousFlame.x = obj_playerCar.x - 69 + currentSpeed/5
 }
 
 }

@@ -23,13 +23,16 @@ sprite_index = global.player_carBody
 nitrous_used=false;
 nitrous_activated=false;
 prenitrous_acceleration = 0;
+nitrousFlame = instance_create_layer(obj_playerCar.x - 40, obj_playerCar.y + 12, "Instances", obj_nitrousFlame);
+instance_deactivate_object(nitrousFlame)
 
 wheelSpin = (weight / 100)
 stall = false
+// Create smoke
+smoke =	instance_create_layer(x - 150, y - 60, "Instances", obj_smoke)
+instance_deactivate_object(smoke)
 
 // Create wheels
 leftTire = instance_create_layer(obj_playerCar.x - 39, obj_playerCar.y + 12, "Instances", obj_defaultWheel)
 rightTire = instance_create_layer(obj_playerCar.x + 36, obj_playerCar.y + 12, "Instances", obj_defaultWheel)
 
-// Create smoke
-//instance_create_layer(self.x, self.y, "Instances", obj_smoke)
