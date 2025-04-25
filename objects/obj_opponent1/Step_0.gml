@@ -17,11 +17,13 @@ currentSpeed = clamp(currentSpeed, 0, topSpeed);
 x += currentSpeed / 5;
 
 // Wheels tracking car body
-leftTire.x = (self.x - 39) + currentSpeed / 5 
-leftTire.y = self.y + 8
+var leftWheelXPosition = -43 * visualScale + (xOffset/2) * visualScale
+var wheelYPosition = 12 - (yOffset/2) * visualScale
+leftTire.x = (self.x + leftWheelXPosition) + currentSpeed / 5 
+leftTire.y = self.y + wheelYPosition
 
-rightTire.x = (self.x + 29) + currentSpeed / 5 
-rightTire.y = self.y + 8
+rightTire.x = (self.x + leftWheelXPosition + 75 * visualScale) + currentSpeed / 5 
+rightTire.y = self.y + wheelYPosition
 
 
 if (gear < maxGear && rpm >= ai_shift_targetRPM && ai_shift_targetRPM <= rpm_redline) {

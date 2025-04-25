@@ -17,5 +17,5 @@ ai_shift_targetRPM = optimalShiftPoints[gear-1] + random_range(-shiftRange/2, sh
 show_debug_message("AI " + string(id) + " shiftTargetRPM: " + string(ai_shift_targetRPM));
 
 // Create wheels
-leftTire = instance_create_depth(self.x, self.y, layerDepth - 201, obj_defaultWheel)
-rightTire = instance_create_depth(self.x, self.y, layerDepth - 201, obj_defaultWheel)
+leftTire = instance_create_depth(self.x, self.y, layerDepth-1, obj_defaultWheel)
+rightTire = instance_create_depth(self.x, self.y, layerDepth-1, obj_defaultWheel)
