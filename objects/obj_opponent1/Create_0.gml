@@ -1,7 +1,10 @@
 randomise();
 //visual initialization
+
+xOffset = (sprite_get_width(sprite_index)/2)*visualScale
+
 y -= yOffset
-x += xOffset/2
+x += xOffset
 
 wheelAngle = 0
 

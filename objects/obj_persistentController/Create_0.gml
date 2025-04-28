@@ -15,6 +15,8 @@ if (!variable_global_exists("player_accelerationFactor")) {
 	global.player_nitrousLevel = 1
 	global.captured_sprite = pointer_null
 	global.playerMoney = 0
-	
+	global.AIDifficulty = 0
+	global.AICLass = "D"
+	global.raceIndex = 0
 }
 

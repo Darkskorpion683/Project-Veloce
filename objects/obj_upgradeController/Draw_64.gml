@@ -50,5 +50,8 @@ draw_set_color(c_white);
  draw_set_color(c_white);
  draw_set_halign(fa_center);
  draw_set_valign(fa_middle);
- draw_text(raceBtnX + raceBtnW / 2, raceBtnY + raceBtnH / 2, "Start Race");
+ draw_text(raceBtnX + raceBtnW / 2, raceBtnY + raceBtnH / 2, "Race Map");
+ 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
  

@@ -398,7 +398,7 @@ function carList(){
 			//Class S
 			{
 				//15
-				carName : "2004 Ferrari F2004 F1 car,",
+				carName : "2004 Ferrari F2004 F1 car",
 				topSpeed : 100,
 				baseAcceleration : 0.1,
 				weight : 3000,

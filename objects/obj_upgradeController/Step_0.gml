@@ -41,5 +41,5 @@ var btnH = 60;
                    mouse_y_gui > raceBtnY && mouse_y_gui < raceBtnY + raceBtnH;
  
  if (raceHovered && mouse_check_button_pressed(mb_left)) {
-     room_goto(rm_raceGameplay); // or your actual race room
+     room_goto(rm_raceMap); // or your actual race room
  }

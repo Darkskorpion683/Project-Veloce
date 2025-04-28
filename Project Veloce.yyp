@@ -74,6 +74,7 @@
     {"id":{"name":"draw_neon_button","path":"scripts/draw_neon_button/draw_neon_button.yy",},},
     {"id":{"name":"getTorqueFromRPM","path":"scripts/getTorqueFromRPM/getTorqueFromRPM.yy",},},
     {"id":{"name":"getUpgradeLevel","path":"scripts/getUpgradeLevel/getUpgradeLevel.yy",},},
+    {"id":{"name":"raceMapGetInfo","path":"scripts/raceMapGetInfo/raceMapGetInfo.yy",},},
     {"id":{"name":"upgradeHandler","path":"scripts/upgradeHandler/upgradeHandler.yy",},},
     {"id":{"name":"shd_greyscale","path":"shaders/shd_greyscale/shd_greyscale.yy",},},
     {"id":{"name":"snd_menuMusic","path":"sounds/snd_menuMusic/snd_menuMusic.yy",},},

@@ -2,7 +2,7 @@ if (obj_playerCar.x >= 18000 - sprite_get_width(global.player_currentCar.color[0
     show_debug_message("🏁 Player crossed finish line at x = " + string(obj_playerCar.x));
 
 	if(!scoreboardLoaded){
-	var my_x = obj_playerCar.x
+	var my_x = obj_playerCar.x + sprite_get_width(global.player_currentCar.color[global.player_carColor].spr)/2
 	var place = 1; // Start in 1st by default
 
 	if (obj_opponent1.x+obj_opponent1.xOffset > my_x) place += 1;

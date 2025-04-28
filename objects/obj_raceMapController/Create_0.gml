@@ -1,4 +1,3 @@
-display_set_gui_size(544, 306);
 garageMenuSelected = false
 frameIndex = 0
 drawx = 0
@@ -7,6 +6,8 @@ camX = 0
 camY = 0
 oldX = 0
 oldY = 0
+mapInfo = []
+
 raceClass = [
 	{
 		markerX : 7, 
@@ -29,3 +30,4 @@ raceClass = [
 		markerY : 147
 	},
 ]
+

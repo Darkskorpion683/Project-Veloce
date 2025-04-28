@@ -54,5 +54,8 @@ draw_text(btn_x + btn_width/2, btn_y + btn_height/2, "Go to Upgrades");
 if (hovered && mouse_check_button_pressed(mb_left)) {
 	audio_stop_sound(global.current_music)
 	global.current_music = audio_play_sound(snd_menuMusic,1,true)
+	if global.place == 1 && global.raceIndex < 24{
+		global.raceIndex++
+	}
     room_goto(rm_raceMap); // replace with your upgrade menu room
 }
