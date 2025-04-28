@@ -7,3 +7,6 @@ if (keyboard_check_pressed(vk_delete)){
 if (keyboard_check_pressed(vk_end)){
 	room_goto(rm_raceGameplay)
 }
+if (keyboard_check_pressed(vk_pagedown)){
+	room_goto(rm_raceMap)
+}

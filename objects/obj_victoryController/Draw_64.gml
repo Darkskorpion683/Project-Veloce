@@ -52,5 +52,7 @@ draw_text(btn_x + btn_width/2, btn_y + btn_height/2, "Go to Upgrades");
 
 // Button click handler (outside of draw GUI!)
 if (hovered && mouse_check_button_pressed(mb_left)) {
-    room_goto(rm_vehicleUpgradeMenu); // replace with your upgrade menu room
+	audio_stop_sound(global.current_music)
+	global.current_music = audio_play_sound(snd_menuMusic,1,true)
+    room_goto(rm_raceMap); // replace with your upgrade menu room
 }

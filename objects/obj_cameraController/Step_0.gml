@@ -1,13 +1,13 @@
-if (obj_playerCar.x >= 18000 - sprite_get_width(global.player_carBody)/2) {
+if (obj_playerCar.x >= 18000 - sprite_get_width(global.player_currentCar.color[0].spr)/2) {
     show_debug_message("🏁 Player crossed finish line at x = " + string(obj_playerCar.x));
 
 	if(!scoreboardLoaded){
 	var my_x = obj_playerCar.x
 	var place = 1; // Start in 1st by default
 
-	if (obj_opponent1.x > my_x) place += 1;
-	if (obj_opponent2.x > my_x) place += 1;
-	if (obj_opponent3.x > my_x) place += 1;
+	if (obj_opponent1.x+obj_opponent1.xOffset > my_x) place += 1;
+	if (obj_opponent2.x+obj_opponent2.xOffset > my_x) place += 1;
+	if (obj_opponent3.x+obj_opponent3.xOffset > my_x) place += 1;
 	global.place = place
 	scoreboardLoaded = true
 	}

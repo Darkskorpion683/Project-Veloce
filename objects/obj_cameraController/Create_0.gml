@@ -6,3 +6,5 @@ capture_requested = false;
 delay_timer = 0; // Start at frame 0
 delay_duration = 10;
 scoreboardLoaded = false
+audio_stop_sound(global.current_music);
+global.current_music = audio_play_sound(snd_raceMusic,1,true)

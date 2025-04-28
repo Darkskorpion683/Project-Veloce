@@ -16,15 +16,12 @@ currentSpeed = clamp(currentSpeed, 0, topSpeed);
 
 x += currentSpeed / 5;
 
-// Wheels tracking car body
-var leftWheelXPosition = -43 * visualScale + (xOffset/2) * visualScale
-var wheelYPosition = 12 - (yOffset/2) * visualScale
-leftTire.x = (self.x + leftWheelXPosition) + currentSpeed / 5 
-leftTire.y = self.y + wheelYPosition
 
-rightTire.x = (self.x + leftWheelXPosition + 75 * visualScale) + currentSpeed / 5 
-rightTire.y = self.y + wheelYPosition
-
+wheelAngle = (wheelAngle - (currentSpeed));
+if (wheelAngle < 0){
+	wheelAngle += 360;
+}
+wheelAngle = wheelAngle mod 360;
 
 if (gear < maxGear && rpm >= ai_shift_targetRPM && ai_shift_targetRPM <= rpm_redline) {
     // Normal shift

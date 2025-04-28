@@ -3,8 +3,8 @@ var btnW = 300; // Slightly smaller but very readable
 var btnH = 60;
 
 // Position relative to obj_carImitator
-var btnX = obj_carImitator.x - btnW / 2;
-var btnY = obj_carImitator.y + 200; // Shift downward from car center
+var btnX = obj_carSelector.x - btnW / 2;
+var btnY = obj_carSelector.y + 200; // Shift downward from car center
 
 var mouse_x_gui = device_mouse_x_to_gui(0);
 var mouse_y_gui = device_mouse_y_to_gui(0);
@@ -36,8 +36,8 @@ draw_set_color(c_white);
  // ==== Start Race Button ====
  var raceBtnW = 240;
  var raceBtnH = 50;
- var raceBtnX = obj_carImitator.x - raceBtnW / 2;
- var raceBtnY = obj_carImitator.y + 280;
+ var raceBtnX = obj_carSelector.x - raceBtnW / 2;
+ var raceBtnY = obj_carSelector.y + 280;
  
  var raceHovered = mouse_x_gui > raceBtnX && mouse_x_gui < raceBtnX + raceBtnW &&
                    mouse_y_gui > raceBtnY && mouse_y_gui < raceBtnY + raceBtnH;
@@ -51,3 +51,4 @@ draw_set_color(c_white);
  draw_set_halign(fa_center);
  draw_set_valign(fa_middle);
  draw_text(raceBtnX + raceBtnW / 2, raceBtnY + raceBtnH / 2, "Start Race");
+ 

@@ -9,12 +9,6 @@ if wheelSpin > 0 {
 if stall == false {
 instance_deactivate_object(smoke)
 
-// Wheels tracking car body
-leftTire.x = (obj_playerCar.x - 39) + currentSpeed / 5 
-leftTire.y = obj_playerCar.y + 12
-
-rightTire.x = (obj_playerCar.x + 36) + currentSpeed / 5 
-rightTire.y = obj_playerCar.y + 12
 
 // --- Get current gear ratio ---
 var ratio = gearRatios[gear - 1];
@@ -33,6 +27,11 @@ currentSpeed += acceleration;
 currentSpeed = clamp(currentSpeed, 0, topSpeed);
 
 x += currentSpeed / 5;
+wheelAngle = (wheelAngle - (currentSpeed));
+if (wheelAngle < 0){
+	wheelAngle += 360;
+}
+wheelAngle = wheelAngle mod 360;
 
 // --- Shift up, adjust RPM based on new gear ratio ---
 if (gear < maxGear && keyboard_check_pressed(ord("E"))) {

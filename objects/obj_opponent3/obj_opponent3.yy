@@ -14,8 +14,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_opponent1","path":"objects/obj_opponent1/obj_opponent1.yy",},"propertyId":{"name":"xOffset","path":"objects/obj_opponent1/obj_opponent1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"38.4",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"RaceObjects",
+    "path":"folders/Objects/RaceObjects.yy",
   },
   "parentObjectId":{
     "name":"obj_opponent1",
