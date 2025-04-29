@@ -15,7 +15,29 @@ getUpgradeCost = function() {
 applyUpgrade = function() {
     var currentLevel = getUpgradeLevel(upgradeSelect);
     if (barProgress > currentLevel) {
-        upgradeHandler(upgradeSelect, barProgress);
+		switch upgradeSelect{
+			case 0:
+			global.player_topSpeed = upgradeHandler(upgradeSelect,barProgress)
+			global.player_topSpeedLevel++
+			break;
+			case 1:
+			global.player_accelerationFactor = upgradeHandler(upgradeSelect,barProgress)
+			global.player_accelerationLevel++
+			break;
+			case 2:
+			global.player_transmission = upgradeHandler(upgradeSelect,barProgress)
+			global.player_transmissionLevel++
+			break;
+			case 3:
+			global.player_weight = upgradeHandler(upgradeSelect,barProgress)
+			global.player_weightLevel++
+			break;
+			case 4:
+			global.player_nitrous = upgradeHandler(upgradeSelect,barProgress)
+			global.player_nitrousLevel++
+			break;
+		}
+		
     }
 };
 if (variable_instance_exists(self, "upgradeSelect")) {

@@ -1,80 +1,83 @@
-function upgradeHandler(_selection, _level) {
-    switch (_selection) {
+function upgradeHandler(_upgrade, _level) {
+    var upgradeValue = 0
+	_level = clamp(_level,0,3)
+	switch (_upgrade) {
         case 0:
+		//Top Speed
             switch (_level) {
                 case 0:
-                    global.player_topSpeed = 140;
+                    upgradeValue = 140;
                     break;
                 case 1:
-                    global.player_topSpeed = 160;
+                    upgradeValue = 160;
                     break;
                 case 2:
-                    global.player_topSpeed = 180;
+                    upgradeValue = 180;
                     break;
                 case 3:
-                    global.player_topSpeed = 220;
+                    upgradeValue = 220;
                     break;
             }
-			global.player_topSpeedLevel = _level
             break;
 
         case 1:
+		//Acceleration Factor
             switch (_level) {
+				
                 case 0:
-                    global.player_accelerationFactor = 0.10;
+                    upgradeValue = .2;
                     break;
                 case 1:
-                    global.player_accelerationFactor = 0.14;
+                    upgradeValue = .22;
                     break;
                 case 2:
-                    global.player_accelerationFactor = 0.18;
+                    upgradeValue = .26;
                     break;
                 case 3:
-                    global.player_accelerationFactor = 0.20;
+                    upgradeValue = .30;
                     break;
             }
-			global.player_accelerationLevel = _level
             break;
 
         case 2:
-            // Placeholder for future upgrade logic
-			global.player_transmissionLevel = _level
+        // Transmission Upgrade
             break;
 
         case 3:
+		//Weight
 			switch (_level) {
                 case 0:
-                    global.player_weight = 3000;
+                    upgradeValue = 3000;
                     break;
                 case 1:
-                    global.player_weight = 2000;
+                    upgradeValue = 2000;
                     break;
                 case 2:
-                    global.player_weight = 1000;
+                    upgradeValue = 1000;
                     break;
                 case 3:
-                    global.player_weight = 0;
+                    upgradeValue = 0;
                     break;
             }
-			global.player_weightLevel = _level
             break;
 
         case 4:
+		//Nitrous
             switch (_level) {
                 case 0:
-                    global.player_nitrous =.6;
+                    upgradeValue =.6;
                     break;
                 case 1:
-                    global.player_nitrous = .7;
+                    upgradeValue = .7;
                     break;
                 case 2:
-                    global.player_nitrous = .8;
+                    upgradeValue = .8;
                     break;
                 case 3:
-                    global.player_nitrous = .9;
+                    upgradeValue = .9;
                     break;
             }
-			global.player_nitrousLevel = _level
             break;
     }
+	return upgradeValue
 }

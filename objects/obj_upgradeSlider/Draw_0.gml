@@ -1,5 +1,5 @@
 // Draw the central sprite (always centered)
-draw_sprite_ext(spr_btn_upgrade_bar, barProgress, x, y,UIScale,UIScale,0,c_white,1);
+draw_sprite_ext(spr_btn_upgrade_bar, barProgress+1, x, y,UIScale,UIScale,0,c_white,1);
 // Handle each button
 for (var i = 0; i < array_length(buttons); i++) {
 	var spr = buttons[i];

@@ -4,7 +4,7 @@ if wheelSpin > 0 {
 	stall = true
 	alarm[1] = wheelSpin
 	wheelSpin = 0
-} 
+}
 
 if stall == false {
 instance_deactivate_object(smoke)

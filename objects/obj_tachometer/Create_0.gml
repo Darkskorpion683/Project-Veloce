@@ -1,1 +1,1 @@
-display_set_gui_size(448, 244);
+display_set_gui_size(640, 360);

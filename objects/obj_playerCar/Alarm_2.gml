@@ -1,0 +1,1 @@
+accelerationFactor = global.player_accelerationFactor

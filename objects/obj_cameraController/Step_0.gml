@@ -22,7 +22,7 @@ var cam = view_camera[0];
 var cam_w = camera_get_view_width(cam);
 var cam_h = camera_get_view_height(cam);
 var target_x = obj_playerCar.x - cam_w / 2 + 100;
-var target_y = obj_playerCar.y - cam_h / 2 - 50;
+var target_y = obj_playerCar.y - cam_h / 2 -20;
 target_x = clamp(target_x, 0, room_width - cam_w);
 target_y = clamp(target_y, 0, room_height - cam_h);
 camera_set_view_pos(cam, target_x, target_y);

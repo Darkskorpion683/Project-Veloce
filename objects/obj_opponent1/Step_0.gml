@@ -1,3 +1,12 @@
+if wheelSpin > 0 {
+	stall = true
+	alarm[1] = wheelSpin
+	wheelSpin = 0
+} 
+
+if stall == false {
+
+
 // --- Get current gear ratio ---
 var ratio = gearRatios[gear - 1];
 rpm = currentSpeed * ratio * rpm_per_speed_unit;
@@ -36,4 +45,5 @@ else if (gear < maxGear && rpm >= rpm_redline && ai_shift_targetRPM > rpm_redlin
     var delayFrames = round(((ai_shift_targetRPM - rpm_redline) / (shiftRange / 2)) * 30);
     alarm[0] = max(1, delayFrames); // Ensure it's at least 1
 	show_debug_message("AI " + string(id) + " shiftTargetRPM: " + string(ai_shift_targetRPM));
+}
 }

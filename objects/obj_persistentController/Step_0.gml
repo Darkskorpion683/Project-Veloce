@@ -10,3 +10,6 @@ if (keyboard_check_pressed(vk_end)){
 if (keyboard_check_pressed(vk_pagedown)){
 	room_goto(rm_raceMap)
 }
+if (keyboard_check_pressed(vk_pageup)){
+	global.playerMoney += 100
+}

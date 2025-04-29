@@ -24,7 +24,7 @@ function raceMapGetInfo(_class,_index){
 				infoArray[0] = true
 				break;
 				case 4:
-				infoArray[5] = "Qualifiers Race"
+				infoArray[5] = "Fast Family"
 				infoArray[0] = true
 				break;
 			}

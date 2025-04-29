@@ -7,8 +7,9 @@ gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9];
 maxGear = array_length(gearRatios);
 rpm_idle = 1000;
 rpm_redline = 8000;
-rpm_per_speed_unit = 50
+rpm_per_speed_unit = 25 //50
 wheelAngle = 0
+gear = 1;
 optimalShiftPoints = calculateOptimalShiftPoints(gearRatios, topSpeed, rpm_idle, rpm_redline, accelerationFactor,rpm_per_speed_unit)
 
 // Creating the variables that can be upgrades and assigning to global value
