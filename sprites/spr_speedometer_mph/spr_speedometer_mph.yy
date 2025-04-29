@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_tachometer",
+  "%Name":"spr_speedometer_mph",
   "bboxMode":0,
   "bbox_bottom":126,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2758bba1-dbc3-4a59-a3c9-07d99819d53e","name":"2758bba1-dbc3-4a59-a3c9-07d99819d53e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":127,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ec5a4eb3-2e21-4a8f-913c-a7386c27e9f2","blendMode":0,"displayName":"default","isLocked":false,"name":"ec5a4eb3-2e21-4a8f-913c-a7386c27e9f2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"869f7e93-5cd3-492c-a4fd-97dfdf3d3d41","blendMode":0,"displayName":"default","isLocked":false,"name":"869f7e93-5cd3-492c-a4fd-97dfdf3d3d41","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_tachometer",
+  "name":"spr_speedometer_mph",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_tachometer",
+    "%Name":"spr_speedometer_mph",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_tachometer",
+    "name":"spr_speedometer_mph",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","path":"sprites/spr_tachometer/spr_tachometer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f34df14e-40fc-4d06-9d78-96362ae900bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2758bba1-dbc3-4a59-a3c9-07d99819d53e","path":"sprites/spr_speedometer_mph/spr_speedometer_mph.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c67aa2d2-c6ab-4414-a495-b33d7380df8f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

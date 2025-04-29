@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_tachometer",
+  "%Name":"spr_tachometer_redline_overlay",
   "bboxMode":0,
   "bbox_bottom":126,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f0f5c552-8b3c-4032-b130-507b0f6a8016","name":"f0f5c552-8b3c-4032-b130-507b0f6a8016","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":127,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ec5a4eb3-2e21-4a8f-913c-a7386c27e9f2","blendMode":0,"displayName":"default","isLocked":false,"name":"ec5a4eb3-2e21-4a8f-913c-a7386c27e9f2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0dad2822-99ea-4722-83e5-3cbca11d59a1","blendMode":0,"displayName":"default","isLocked":false,"name":"0dad2822-99ea-4722-83e5-3cbca11d59a1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_tachometer",
+  "name":"spr_tachometer_redline_overlay",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_tachometer",
+    "%Name":"spr_tachometer_redline_overlay",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_tachometer",
+    "name":"spr_tachometer_redline_overlay",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb65cc04-c522-4d3c-ad52-65259f5c31d8","path":"sprites/spr_tachometer/spr_tachometer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f34df14e-40fc-4d06-9d78-96362ae900bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0f5c552-8b3c-4032-b130-507b0f6a8016","path":"sprites/spr_tachometer_redline_overlay/spr_tachometer_redline_overlay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7fe8bdb7-66e2-4988-a36f-04955b597ce0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":63,
+    "yorigin":64,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
