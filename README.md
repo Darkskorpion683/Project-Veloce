@@ -43,25 +43,39 @@ ____________________________________________________________________________
 ## Liscensing information
 ### artwork
 Start screen -Ethan using chatgpt
+
 Victory scene -John 
+
 Credits screen -Gabe Using Chatgpt
+
 Upgrade screen-John and Arthur
+
 Race tiles-Arthur
+
 Cars - Arthur
+
 Wheels-Arthur
+
 Smoke- Ethan
+
 Nitrous flame-Ethan
+
 Gauges- Arthur
 _________________________________________________
 ### Music
 In game music: Nick Tiegs
+
 Menu music: Nick Tiegs
 ________________________________________________
 ### Sound Effects
 Nitrous -
+
 Wheel spinout-
+
 idle driving-
+
 up shift -
+
 down shift-
 
  
