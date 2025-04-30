@@ -63,9 +63,9 @@ Nitrous flame-Ethan
 Gauges- Arthur
 _________________________________________________
 ### Music
-In game music:  [hot racing track](./sounds/snd_raceMusic.mp3) -Nick Tiegs 
+In game music:  [hot racing track](./sounds/snd_menuMusic/snd_raceMusic.mp3) -Nick Tiegs 
 
-Menu music: [Tunnel Creeping](./sounds/snd_menuMusic.mp3) -Nick Tiegs
+Menu music: [Tunnel Creeping](./sounds/snd_raceMusic/snd_menuMusic.mp3) -Nick Tiegs
 ________________________________________________
 ### Sound Effects
 Nitrous -
