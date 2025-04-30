@@ -1,5 +1,5 @@
 // ==== CONFIGURATION ====
-var bar_x = 95;
+var bar_x = 145;
 var bar_y = 5;
 var bar_width = 350;
 var bar_height = 10;
@@ -7,6 +7,13 @@ var bar_height = 10;
 var start_x = 288;
 var finish_x = 18000;
 
+// ==== RACE TIMER ====
+if (obj_playerCar.x < 18000) {
+	race_timer += 1 / room_speed
+}
+
+	
+	
 // ==== PROGRESS CALCULATIONS ====
 var player_total_distance = finish_x - start_x;
 var player_traveled = clamp(obj_playerCar.x - start_x, 0, player_total_distance);

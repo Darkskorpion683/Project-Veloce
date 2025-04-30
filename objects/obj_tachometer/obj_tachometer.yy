@@ -30,6 +30,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"rpm","filters":[],"listItems":[],"multiselect":false,"name":"rpm","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"180","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"test_rpm","filters":[],"listItems":[],"multiselect":false,"name":"test_rpm","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1000","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"tachometer_needle","filters":[],"listItems":[],"multiselect":false,"name":"tachometer_needle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"speedometer_needle","filters":[],"listItems":[],"multiselect":false,"name":"speedometer_needle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"nitrous_needle","filters":[],"listItems":[],"multiselect":false,"name":"nitrous_needle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

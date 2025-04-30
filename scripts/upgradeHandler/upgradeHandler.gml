@@ -47,16 +47,16 @@ function upgradeHandler(_upgrade, _level) {
 		//Weight
 			switch (_level) {
                 case 0:
-                    upgradeValue = 3000;
+                    upgradeValue = 4000;
                     break;
                 case 1:
-                    upgradeValue = 2000;
+                    upgradeValue = 3000;
                     break;
                 case 2:
-                    upgradeValue = 1000;
+                    upgradeValue = 2000;
                     break;
                 case 3:
-                    upgradeValue = 0;
+                    upgradeValue = 1000;
                     break;
             }
             break;

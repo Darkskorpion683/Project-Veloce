@@ -48,7 +48,7 @@ draw_rectangle(btn_x, btn_y, btn_x + btn_width, btn_y + btn_height, false);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(btn_x + btn_width/2, btn_y + btn_height/2, "Go to Upgrades");
+draw_text(btn_x + btn_width/2, btn_y + btn_height/2, "Race Road Map");
 
 // Button click handler (outside of draw GUI!)
 if (hovered && mouse_check_button_pressed(mb_left)) {
