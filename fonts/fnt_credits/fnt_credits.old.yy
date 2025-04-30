@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_progressBar",
+  "%Name":"fnt_credits",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":68,
@@ -2510,7 +2510,7 @@
   "last":0,
   "lineHeight":87,
   "maintainGms1Font":false,
-  "name":"fnt_progressBar",
+  "name":"fnt_credits",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -2524,7 +2524,7 @@
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
-  "sdfSpread":11,
+  "sdfSpread":8,
   "size":48.0,
   "styleName":"Italic",
   "textureGroupId":{

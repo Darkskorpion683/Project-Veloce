@@ -4,5 +4,5 @@ var gui_y = y - camera_get_view_y(view_camera[0]);
 var hovered = draw_neon_button(spr_btn_credits,gui_x,gui_y,1.5,c_purple);
 
 if (hovered && mouse_check_button_pressed(mb_left)) {
- //credits room
+	room_goto(rm_credits)
 }
