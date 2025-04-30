@@ -40,7 +40,7 @@ ________________________________________________________________________________
 ## Cheat Codes:
 ***Press the 'pg up' key to gain 100 dollars***
 ____________________________________________________________________________
-##Liscensing information
+## Liscensing information
 ### artwork
 Start screen -Ethan using chatgpt
 Victory scene -John 
