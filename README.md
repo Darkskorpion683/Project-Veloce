@@ -39,6 +39,31 @@ But be warned, the higher the level the race is, the harder the opponents get.
 ___________________________________________________________________________________________________
 ## Cheat Codes:
 ***Press the 'pg up' key to gain 100 dollars***
+____________________________________________________________________________
+##Liscensing information
+### artwork
+Start screen -Ethan using chatgpt
+Victory scene -John 
+Credits screen -Gabe Using Chatgpt
+Upgrade screen-John and Arthur
+Race tiles-Arthur
+Cars - Arthur
+Wheels-Arthur
+Smoke- Ethan
+Nitrous flame-Ethan
+Gauges- Arthur
+_________________________________________________
+### Music
+In game music: Nick Tiegs
+Menu music: Nick Tiegs
+________________________________________________
+### Sound Effects
+Nitrous -
+Wheel spinout-
+idle driving-
+up shift -
+down shift-
 
+ 
 
 
