@@ -7,7 +7,13 @@ x += xOffset
 
 wheelAngle = 0
 
-statList = getStatsFromLevel(global.raceIndex)
+// Get AI Difficulty based on class and level
+var currentClass = global.AICLass;  
+var currentLevel = global.AIDifficulty;
+
+var statIndex = getRaceIndexFromClassLevel(currentClass, currentLevel);
+var statList = getStatsFromLevel(statIndex);
+
 topSpeed = statList[global.raceIndex].aITopSpeed
 accelerationFactor = statList[global.raceIndex].aIAcceleration
 weight = statList[global.raceIndex].aIWeight

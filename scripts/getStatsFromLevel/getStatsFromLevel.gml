@@ -1,3 +1,30 @@
+// Should ensure that race.level indexes correctly
+function getRaceIndexFromClassLevel(_class, _level) {
+function getRaceIndexFromClassLevel(_class, _level) {
+    if (typeof(_class) != typeof("") || _level < 1 || _level > 4) {
+        show_debug_message("Invalid class or level in getRaceIndexFromClassLevel");
+        return -1;
+    }
+
+    var classOffsets = {
+        "D": 0,
+        "C": 5,
+        "B": 10,
+        "A": 15,
+        "S": 20
+    };
+
+    if (is_undefined(classOffsets[_class])) {
+        show_debug_message("Invalid class key: " + string(_class));
+        return -1;
+    }
+
+    return classOffsets[_class] + (_level - 1);
+}
+;
+}
+
+
 function getStatsFromLevel(_index){
 
 	classDcars = getClassCars("D")
