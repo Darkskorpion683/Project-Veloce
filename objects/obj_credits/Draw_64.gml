@@ -43,3 +43,8 @@ for (var i = 0; i < array_length(credits); i++) {
     draw_text_color(x_pos, y_pos, role, text_color, text_color, text_color, text_color, 1);
     draw_text_color(name_x_offset, y_pos, name, text_color, text_color, text_color, text_color, 1);
 }
+
+// Reset fonts and alignment to default
+draw_set_font(-1); // Resets to default font
+draw_set_halign(fa_left); // Default horizontal alignment
+draw_set_valign(fa_top);  // Default vertical alignment
