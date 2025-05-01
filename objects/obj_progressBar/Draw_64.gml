@@ -12,7 +12,12 @@ if (obj_playerCar.x < 18000) {
 	race_timer += 1 / room_speed
 }
 
-	
+// Define colors for each car
+var player_color = #FA0E0E;        // Player's car color
+var opponent1_color = #3397E9;       // Opponent 1's car color
+var opponent2_color = #787878;      // Opponent 2's car color
+var opponent3_color = #EBEBEB;    // Opponent 3's car color
+
 	
 // ==== PROGRESS CALCULATIONS ====
 var player_total_distance = finish_x - start_x;
@@ -45,11 +50,19 @@ draw_roundrect(bar_x, bar_y + 20, bar_x + bar_width, bar_y + 20 + bar_height, fa
 draw_roundrect(bar_x, bar_y + 30, bar_x + bar_width, bar_y + 30 + bar_height, false);
 
 // ==== DRAW FILL ====
-draw_set_color(fill_color);
+draw_set_alpha(0.6)
+draw_set_color(player_color);
 draw_roundrect(bar_x + 2, bar_y + 2, bar_x + (bar_width * player_progress), bar_y + bar_height - 2, false);
+
+draw_set_color(opponent1_color);
 draw_roundrect(bar_x + 2, bar_y + 12, bar_x + (bar_width * opponent1_progress), bar_y + 10 + bar_height - 2, false);
+
+draw_set_color(opponent2_color);
 draw_roundrect(bar_x + 2, bar_y + 22, bar_x + (bar_width * opponent2_progress), bar_y + 20 + bar_height - 2, false);
+
+draw_set_color(opponent3_color);
 draw_roundrect(bar_x + 2, bar_y + 32, bar_x + (bar_width * opponent3_progress), bar_y + 30 + bar_height - 2, false);
+draw_set_alpha(1)
 
 // ==== DRAW BORDER ====
 draw_set_color(border_color);
@@ -58,5 +71,23 @@ draw_roundrect(bar_x, bar_y + 10, bar_x + bar_width, bar_y + 10 + bar_height, tr
 draw_roundrect(bar_x, bar_y + 20, bar_x + bar_width, bar_y + 20 + bar_height, true);
 draw_roundrect(bar_x, bar_y + 30, bar_x + bar_width, bar_y + 30 + bar_height, true);
 
+// ==== DRAW LABELS ====
+/*
+draw_set_font(fnt_progressBar);
+draw_set_halign(fa_left);
+draw_set_valign(fa_middle);
+
+// Player label
+draw_text(bar_x - 50, bar_y + bar_height / 2, "Player: ");
+
+// Opponent 1 label
+draw_text(bar_x - 50, bar_y + 12 + bar_height / 2, "Opponent 1: ");
+
+// Opponent 2 label
+draw_text(bar_x - 50, bar_y + 22 + bar_height / 2, "Opponent 2: ");
+
+// Opponent 3 label
+draw_text(bar_x - 50, bar_y + 32 + bar_height / 2, "Opponent 3: ");
+*/
 
 draw_set_color(c_white)
