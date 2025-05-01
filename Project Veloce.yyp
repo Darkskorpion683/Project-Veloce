@@ -64,6 +64,7 @@
     {"id":{"name":"obj_shift_profiler","path":"objects/obj_shift_profiler/obj_shift_profiler.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"obj_tachometer","path":"objects/obj_tachometer/obj_tachometer.yy",},},
+    {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"obj_upgradeController","path":"objects/obj_upgradeController/obj_upgradeController.yy",},},
     {"id":{"name":"obj_upgradeSlider","path":"objects/obj_upgradeSlider/obj_upgradeSlider.yy",},},
     {"id":{"name":"obj_victoryController","path":"objects/obj_victoryController/obj_victoryController.yy",},},
