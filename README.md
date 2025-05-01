@@ -63,9 +63,9 @@ Nitrous flame-Ethan
 Gauges- Arthur
 _________________________________________________
 ### Music
-In game music: Nick Tiegs
+In game music:  hot racing track -Nick Tiegs 
 
-Menu music: Nick Tiegs
+Menu music: Tunnel Creeping -Nick Tiegs
 ________________________________________________
 ### Sound Effects
 Nitrous -
