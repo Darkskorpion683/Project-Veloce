@@ -1,26 +1,25 @@
-// Draw Event
 var slide = slides[slide_index];
 
-// Get room size
+// Room size (assumes no views or camera scaling)
 var room_w = 1366;
 var room_h = 768;
 
-// Get slide size
+// Slide size
 var slide_w = sprite_get_width(slide);
 var slide_h = sprite_get_height(slide);
 
-// Calculate centered position
+// Centered position of the slide
 x = (room_w - slide_w) / 2;
 y = (room_h - slide_h) / 2;
 
-// Draw border (optional: change colors/sizes as needed)
-var border_padding = 20;
-draw_set_color(c_white);
-draw_rectangle(x - border_padding, y - border_padding, x + slide_w + border_padding, y + slide_h + border_padding, false);
+// Draw full-room background/border first
+draw_set_color(make_color_rgb(214, 208, 206));
+draw_rectangle(0, 0, room_w, room_h, false); // Full fill
 
-// Draw background behind the slide for contrast (optional)
-draw_set_color(make_color_rgb(30, 30, 30));
-draw_rectangle(x - border_padding, y - border_padding, x + slide_w + border_padding, y + slide_h + border_padding, true);
+// Optional: draw a brighter box behind the slide (frame effect)
+var frame_padding = 16;
+draw_set_color(c_black);
+draw_rectangle(x - frame_padding, y - frame_padding, x + slide_w + frame_padding, y + slide_h + frame_padding, false);
 
-// Draw slide image
+// Draw the slide centered
 draw_sprite(slide, 0, x, y);
