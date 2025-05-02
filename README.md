@@ -40,15 +40,15 @@ ________________________________________________________________________________
 ## Cheat Codes:
 ***Press the 'pg up' key to gain 100 dollars***
 ____________________________________________________________________________
-## Liscensing information
+## Licensing information
 ### artwork
-Start screen -Ethan using chatgpt
+Start screen -Ethan using ChatGPT
 
 Victory scene -John 
 
-Credits screen -Gabe Using Chatgpt
+Credits screen -Gabe Using ChatGPT
 
-Upgrade screen-John and Arthur
+Upgrade screen- John and Arthur
 
 Race tiles-Arthur
 
@@ -63,20 +63,23 @@ Nitrous flame-Ethan
 Gauges- Arthur
 _________________________________________________
 ### Music
-In game music:  hot racing track -Nick Tiegs 
+In-game music:  hot racing track -Nick Tiegs 
 
 Menu music: Tunnel Creeping -Nick Tiegs
 ________________________________________________
 ### Sound Effects
-Nitrous -
+Nitrous - [Nitrous Activation by strexet](https://pixabay.com/sound-effects/nitro-activation-48077/)
 
-Wheel spinout-
+Wheel spinout- [Nissan Maxima burnout (04-25-2009) by audible-edge](https://pixabay.com/sound-effects/nissan-maxima-burnout-04-25-2009-6344/)
 
-idle driving-
+Up shift -
 
-up shift -
+Down shift-
 
-down shift-
+Money- [Cash Register Fake by CapsLok](https://pixabay.com/sound-effects/cash-register-fake-88639/)
+
+[Pixabay Liscense](https://pixabay.com/service/license-summary/)
+
 
  
 
