@@ -26,7 +26,9 @@ var btnH = 60;
          with (obj_upgradeSlider) {
              applyUpgrade();
          }
- 
+		global.player_currentCar = obj_carSelector.selectedCar
+		global.player_carSelction[0] = obj_carSelector.classIndex
+		global.player_carSelction[1] = obj_carSelector.carIndex
          show_debug_message("✅ Upgrades purchased for $" + string(totalCost));
      } else {
          show_debug_message("❌ Not enough money!");

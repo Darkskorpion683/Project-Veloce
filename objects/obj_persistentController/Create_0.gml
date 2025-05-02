@@ -18,5 +18,6 @@ if (!variable_global_exists("player_accelerationFactor")) {
 	global.AIDifficulty = 0
 	global.AICLass = "D"
 	global.raceIndex = 0
+	global.player_carSelction = [0,0]
 }
 

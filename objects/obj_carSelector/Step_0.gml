@@ -66,6 +66,7 @@ if (keyboard_check_pressed(ord("M"))) {
 if (mouse_x > x + 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x + 150 + sprite_get_width(spr_carSelectArrow) &&
     mouse_y > y - 200 - sprite_get_height(spr_carSelectArrow) && mouse_y < y - 200 + sprite_get_height(spr_carSelectArrow)) {
 		if(mouse_check_button_pressed(mb_left)){
+			colorIndex = 0
 			if(carIndex <= 0){
 				carIndex =  array_length(carClasses[classIndex])-1
 			}
@@ -78,6 +79,7 @@ if (mouse_x > x + 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x + 15
 if (mouse_x > x - 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x - 150 + sprite_get_width(spr_carSelectArrow) &&
     mouse_y > y - 200 - sprite_get_height(spr_carSelectArrow) && mouse_y < y - 200 + sprite_get_height(spr_carSelectArrow)) {
 		if(mouse_check_button_pressed(mb_left)){
+			colorIndex = 0
 			if(carIndex >= array_length(carClasses[classIndex])-1){
 				carIndex = 0
 		
@@ -91,6 +93,7 @@ if (mouse_x > x - 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x - 15
 if (mouse_x > x + 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x + 150 + sprite_get_width(spr_carSelectArrow) &&
     mouse_y > y - 230 - sprite_get_height(spr_carSelectArrow) && mouse_y < y - 230 + sprite_get_height(spr_carSelectArrow)) {
 		if(mouse_check_button_pressed(mb_left)){
+		colorIndex = 0
 		carIndex = 0
 		if(classIndex >= array_length(carClasses)-1){
 			classIndex = 0
@@ -104,6 +107,7 @@ if (mouse_x > x + 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x + 15
 if (mouse_x > x - 150 - sprite_get_width(spr_carSelectArrow) && mouse_x < x - 150 + sprite_get_width(spr_carSelectArrow) &&
     mouse_y > y - 230 - sprite_get_height(spr_carSelectArrow) && mouse_y < y - 230 + sprite_get_height(spr_carSelectArrow)) {
 		if(mouse_check_button_pressed(mb_left)){
+		colorIndex = 0
 		carIndex = 0
 		if(classIndex <= 0){
 			classIndex = array_length(carClasses)-1

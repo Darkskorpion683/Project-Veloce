@@ -283,12 +283,12 @@ function getStatsFromLevel(_index){
 		//25
 		{
 			car : classScars[irandom_range(0,array_length(classScars)-1)],
-			aITopSpeed : upgradeHandler(0,irandom_range(2,3)),
-			aIAcceleration : upgradeHandler(1,irandom_range(2,3)),
-			aITransmission : upgradeHandler(2,irandom_range(2,3)),
-			aIWeight : upgradeHandler(3,irandom_range(2,3)),
-			aINitrous : upgradeHandler(4,irandom_range(2,3)),
-			aILevel : irandom_range(2,3)
+			aITopSpeed : upgradeHandler(0,3),
+			aIAcceleration : upgradeHandler(1,3),
+			aITransmission : upgradeHandler(2,3),
+			aIWeight : upgradeHandler(3,3),
+			aINitrous : upgradeHandler(4,3),
+			aILevel : 3
 		},
 		
 	]
