@@ -1,0 +1,1 @@
+barProgress = clamp(barProgress,0,3)

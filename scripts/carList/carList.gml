@@ -4,7 +4,7 @@ function carList(){
 			{
 				//0
 				carName : "Nissan 180SX",
-				topSpeed : 100,
+				topSpeed : 60,
 				baseAcceleration : 0.1,
 				weight : 3000,
 				class : "D",
@@ -31,9 +31,9 @@ function carList(){
 			{
 				//1
 				carName : "Infiniti G35",
-				topSpeed : 100,
-				baseAcceleration : 0.1,
-				weight : 3000,
+				topSpeed : 65,
+				baseAcceleration : 0.12,
+				weight : 3050,
 				class : "D",
 				color : [
 				{
@@ -57,9 +57,9 @@ function carList(){
 			{
 				//2
 				carName : "Toyota GR86",
-				topSpeed : 100,
-				baseAcceleration : 0.1,
-				weight : 3000,
+				topSpeed : 62,
+				baseAcceleration : 0.11,
+				weight : 2930,
 				class : "D",
 				color : [
 				{

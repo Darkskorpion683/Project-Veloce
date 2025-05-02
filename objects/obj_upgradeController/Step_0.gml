@@ -3,7 +3,7 @@ var btnW = 300;
 var btnH = 60;
 
 // Match button position (same as in Draw GUI)
- var btnX = obj_carSelector.x - btnW / 2;
+ var btnX = obj_carSelector.x + 160;
  var btnY = obj_carSelector.y + 200;
  
  var mouse_x_gui = device_mouse_x_to_gui(0);
@@ -34,7 +34,7 @@ var btnH = 60;
  // ==== Start Race Button Click ====
  var raceBtnW = 240;
  var raceBtnH = 50;
- var raceBtnX = obj_carSelector.x - raceBtnW / 2;
+ var raceBtnX = obj_carSelector.x + 160;
  var raceBtnY = obj_carSelector.y + 280; // Match Draw GUI
  
  var raceHovered = mouse_x_gui > raceBtnX && mouse_x_gui < raceBtnX + raceBtnW &&

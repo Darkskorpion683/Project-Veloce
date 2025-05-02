@@ -6,6 +6,7 @@ drawy = display_get_gui_height() - btnYHeight
 mx = device_mouse_x_to_gui(0)
 my = device_mouse_y_to_gui(0)
 mapInfo = raceMapGetInfo(raceSelection,global.raceIndex)
+draw_set_font(fnt_mapScreen)
 
 
 if(mx > 0 && mx < btnXWidth && device_mouse_y_to_gui(0) > drawy && my < display_get_gui_height()){

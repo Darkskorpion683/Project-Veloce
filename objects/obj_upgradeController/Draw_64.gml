@@ -1,9 +1,9 @@
 // Shared Purchase Button
-var btnW = 300; // Slightly smaller but very readable
+var btnW = 200; // Slightly smaller but very readable
 var btnH = 60;
 
 // Position relative to obj_carImitator
-var btnX = obj_carSelector.x - btnW / 2;
+var btnX = obj_carSelector.x + 160
 var btnY = obj_carSelector.y + 200; // Shift downward from car center
 
 var mouse_x_gui = device_mouse_x_to_gui(0);
@@ -29,14 +29,15 @@ draw_text(btnX + btnW / 2, btnY + btnH / 2, "Purchase All ($" + string(totalCost
 
 // Draw available money
 draw_set_color(c_lime);
-draw_text(btnX + btnW / 2, btnY - 24, "Money: $" + string(global.playerMoney));
+draw_set_font(fnt_money)
+draw_text(btnX + btnW / 2, 24, "Money: $" + string(global.playerMoney));
 
 draw_set_color(c_white);
  
  // ==== Start Race Button ====
- var raceBtnW = 240;
- var raceBtnH = 50;
- var raceBtnX = obj_carSelector.x - raceBtnW / 2;
+ var raceBtnW = 200;
+ var raceBtnH = 60;
+ var raceBtnX = obj_carSelector.x + 160;
  var raceBtnY = obj_carSelector.y + 280;
  
  var raceHovered = mouse_x_gui > raceBtnX && mouse_x_gui < raceBtnX + raceBtnW &&

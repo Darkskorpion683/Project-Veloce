@@ -25,7 +25,7 @@ for (var i = 0; i < array_length(buttons); i++) {
 	spr.frame = is_hovered ? 1 : 0;
 
 	if (is_hovered && mouse_check_button_pressed(mb_left)) {
-		if (spr.scalex > 0 && barProgress > 1) {
+		if (spr.scalex > 0 && barProgress > 0) {
 			barProgress--;
 		}
 		else if (spr.scalex < 0 && barProgress < 4) {

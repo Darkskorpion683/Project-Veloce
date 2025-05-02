@@ -6,16 +6,16 @@ function upgradeHandler(_upgrade, _level) {
 		//Top Speed
             switch (_level) {
                 case 0:
-                    upgradeValue = 140;
+                    upgradeValue = 40;
                     break;
                 case 1:
-                    upgradeValue = 160;
+                    upgradeValue = 50;
                     break;
                 case 2:
-                    upgradeValue = 180;
+                    upgradeValue = 60;
                     break;
                 case 3:
-                    upgradeValue = 220;
+                    upgradeValue = 70;
                     break;
             }
             break;
@@ -25,16 +25,16 @@ function upgradeHandler(_upgrade, _level) {
             switch (_level) {
 				
                 case 0:
-                    upgradeValue = .2;
+                    upgradeValue = .3;
                     break;
                 case 1:
-                    upgradeValue = .22;
+                    upgradeValue = .32;
                     break;
                 case 2:
-                    upgradeValue = .26;
+                    upgradeValue = .36;
                     break;
                 case 3:
-                    upgradeValue = .30;
+                    upgradeValue = .40;
                     break;
             }
             break;

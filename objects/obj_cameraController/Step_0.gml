@@ -5,9 +5,9 @@ if (obj_playerCar.x >= 18000 - sprite_get_width(global.player_currentCar.color[0
 	var my_x = obj_playerCar.x + sprite_get_width(global.player_currentCar.color[global.player_carColor].spr)/2
 	var place = 1; // Start in 1st by default
 
-	if (obj_opponent1.x+obj_opponent1.xOffset > my_x) place += 1;
-	if (obj_opponent2.x+obj_opponent2.xOffset > my_x) place += 1;
-	if (obj_opponent3.x+obj_opponent3.xOffset > my_x) place += 1;
+	if (obj_opponent1.x+(obj_opponent1.sprite_width/2) > my_x) place += 1;
+	if (obj_opponent2.x+(obj_opponent2.sprite_width/2) > my_x) place += 1;
+	if (obj_opponent3.x+(obj_opponent3.sprite_width/2) > my_x) place += 1;
 	global.place = place
 	scoreboardLoaded = true
 	}

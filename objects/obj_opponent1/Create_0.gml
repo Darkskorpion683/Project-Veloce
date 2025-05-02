@@ -1,22 +1,24 @@
 randomise();
-//visual initialization
-xOffset = (sprite_get_width(sprite_index)/2)*visualScale
 
-y -= yOffset
-x += xOffset
-
-wheelAngle = 0
-
-// Get AI Difficulty based on class and level
 var currentClass = global.AICLass;  
 var currentLevel = global.AIDifficulty;
 
 var statIndex = getRaceIndexFromClassLevel(currentClass, currentLevel);
 var statList = getStatsFromLevel(statIndex);
 
-topSpeed = statList[global.raceIndex].aITopSpeed
-accelerationFactor = statList[global.raceIndex].aIAcceleration
-weight = statList[global.raceIndex].aIWeight
+currentCar = statList[global.raceIndex].car
+sprite_index = currentCar.color[irandom_range(0,3)].spr
+xOffset = (sprite_get_width(sprite_index)/2)*(1-visualScale)
+
+x += xOffset
+
+wheelAngle = 0
+
+// Get AI Difficulty based on class and level
+
+topSpeed = currentCar.topSpeed + statList[global.raceIndex].aITopSpeed
+accelerationFactor = currentCar.baseAcceleration + statList[global.raceIndex].aIAcceleration
+weight = currentCar.weight + statList[global.raceIndex].aIWeight
 shiftRange = 3000 - 933*statList[global.raceIndex].aILevel
 wheelSpin = (weight / 100)
 gearRatios = [4.0, 2.7, 1.9, 1.4, 1.1, 0.9];

@@ -45,6 +45,8 @@
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},},
     {"id":{"name":"fnt_credits","path":"fonts/fnt_credits/fnt_credits.yy",},},
     {"id":{"name":"fnt_HUD","path":"fonts/fnt_HUD/fnt_HUD.yy",},},
+    {"id":{"name":"fnt_mapScreen","path":"fonts/fnt_mapScreen/fnt_mapScreen.yy",},},
+    {"id":{"name":"fnt_money","path":"fonts/fnt_money/fnt_money.yy",},},
     {"id":{"name":"fnt_progressBar","path":"fonts/fnt_progressBar/fnt_progressBar.yy",},},
     {"id":{"name":"obj_btn_credits","path":"objects/obj_btn_credits/obj_btn_credits.yy",},},
     {"id":{"name":"obj_btn_mainMenu","path":"objects/obj_btn_mainMenu/obj_btn_mainMenu.yy",},},
