@@ -16,7 +16,9 @@ var totalCost = 0;
 with (obj_upgradeSlider) {
     totalCost += getUpgradeCost();
 }
-
+if obj_carSelector.selectedCar != global.player_currentCar{
+	totalCost += obj_carSelector.selectedCar.price
+}
 // Draw the button
 draw_set_color(hovered ? c_gray : c_dkgray);
 draw_rectangle(btnX, btnY, btnX + btnW, btnY + btnH, false);
@@ -30,7 +32,7 @@ draw_text(btnX + btnW / 2, btnY + btnH / 2, "Purchase All ($" + string(totalCost
 // Draw available money
 draw_set_color(c_lime);
 draw_set_font(fnt_money)
-draw_text(btnX + btnW / 2, 24, "Money: $" + string(global.playerMoney));
+draw_text(btnX + btnW / 2, 150, "Money: $" + string(global.playerMoney));
 
 draw_set_color(c_white);
  

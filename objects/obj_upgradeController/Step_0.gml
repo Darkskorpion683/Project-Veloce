@@ -15,9 +15,11 @@ var btnH = 60;
      var totalCost = 0;
  
      with (obj_upgradeSlider) {
-         totalCost += getUpgradeCost();
-     }
- 
+        totalCost += getUpgradeCost();
+    }
+	if obj_carSelector.selectedCar != global.player_currentCar{
+		totalCost += obj_carSelector.selectedCar.price
+	}
      if (global.playerMoney >= totalCost) {
          global.playerMoney -= totalCost;
  
