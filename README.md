@@ -72,11 +72,11 @@ Nitrous - [Nitrous Activation by strexet](https://pixabay.com/sound-effects/nitr
 
 Wheel spinout- [Nissan Maxima burnout (04-25-2009) by audible-edge](https://pixabay.com/sound-effects/nissan-maxima-burnout-04-25-2009-6344/)
 
-Up shift -
-
-Down shift-
+Up shift - [Car Engine Revving by DigPro120](https://pixabay.com/sound-effects/car-engine-revving-94831/)
 
 Money- [Cash Register Fake by CapsLok](https://pixabay.com/sound-effects/cash-register-fake-88639/)
+
+Upgrade applied - [ cordless_drill by ondondvo ](https://pixabay.com/sound-effects/cordless-drill-70793/)
 
 [Pixabay Liscense](https://pixabay.com/service/license-summary/)
 
