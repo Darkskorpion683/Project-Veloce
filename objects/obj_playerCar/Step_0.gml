@@ -54,10 +54,12 @@ if (gear > 1 && keyboard_check_pressed(ord("Q"))) {
 if (!nitrous_used && keyboard_check_pressed(vk_shift)) {
     nitrous_activated = true;
 	instance_activate_object(nitrousFlame);
+	audio_play_sound(snd_nitro,2,false)
 	prenitrous_acceleration = acceleration
     accelerationFactor += nitrous;
     nitrous_used = true;
     alarm[0] = 20;
+	
 }
 
 // Nitrous Flame tracking exhaust pipe

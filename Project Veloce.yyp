@@ -52,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Project Veloce",
   "resources":[
@@ -103,7 +103,9 @@
     {"id":{"name":"raceMapGetInfo","path":"scripts/raceMapGetInfo/raceMapGetInfo.yy",},},
     {"id":{"name":"upgradeHandler","path":"scripts/upgradeHandler/upgradeHandler.yy",},},
     {"id":{"name":"shd_greyscale","path":"shaders/shd_greyscale/shd_greyscale.yy",},},
+    {"id":{"name":"snd_cashPrize","path":"sounds/snd_cashPrize/snd_cashPrize.yy",},},
     {"id":{"name":"snd_menuMusic","path":"sounds/snd_menuMusic/snd_menuMusic.yy",},},
+    {"id":{"name":"snd_nitro","path":"sounds/snd_nitro/snd_nitro.yy",},},
     {"id":{"name":"snd_raceMusic","path":"sounds/snd_raceMusic/snd_raceMusic.yy",},},
     {"id":{"name":"spr_296_black","path":"sprites/spr_296_black/spr_296_black.yy",},},
     {"id":{"name":"spr_296_blue","path":"sprites/spr_296_blue/spr_296_blue.yy",},},
