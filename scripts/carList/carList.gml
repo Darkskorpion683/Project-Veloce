@@ -4,7 +4,7 @@ function carList(){
 			{
 				//0
 				carName : "Nissan 180SX",
-				price : 3000,
+				price : 100,
 				topSpeed : 65,
 				baseAcceleration : .1,
 				weight : 3000,

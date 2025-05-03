@@ -7,6 +7,7 @@ if(keyboard_check_pressed(vk_left)){
 	}
 	frameIndex = 0
 }
+
 if(keyboard_check_pressed(vk_right)){
 	if raceSelection >= array_length(raceClass)-1 {
 		raceSelection = 0
@@ -16,6 +17,7 @@ if(keyboard_check_pressed(vk_right)){
 	}
 	frameIndex = 0
 }
+
 
 var frames = 120
 if(camX < raceClass[raceSelection].markerX or camX > raceClass[raceSelection].markerX){
@@ -27,4 +29,9 @@ if(camY < raceClass[raceSelection].markerY or camY > raceClass[raceSelection].ma
 frameIndex++
 
 camera_set_view_pos(view_camera[0], camX, camY)
+
+	
+		
+
+
 

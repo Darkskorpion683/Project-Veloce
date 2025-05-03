@@ -1,6 +1,7 @@
 selectedCar = global.player_currentCar
 classIndex = global.player_carSelction[0]
 carIndex = global.player_carSelction[1]
+colorIndex = global.player_carColor
 classDcars = []
 classCcars = []
 classBcars = []

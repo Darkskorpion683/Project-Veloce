@@ -1,11 +1,13 @@
 image_speed = 0
+costMultiplier = 1
+
 getUpgradeCost = function() {
     var currentLevel = getUpgradeLevel(upgradeSelect);
     var cost = 0;
 
     if (barProgress > currentLevel) {
         for (var i = currentLevel + 1; i <= barProgress; i++) {
-            cost += i * 10;
+            cost += i * 10* costMultiplier;
         }
     }
 

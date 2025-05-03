@@ -26,9 +26,20 @@ var btnH = 60;
          with (obj_upgradeSlider) {
              applyUpgrade();
          }
+		oldCar = global.player_currentCar
 		global.player_currentCar = obj_carSelector.selectedCar
 		global.player_carSelction[0] = obj_carSelector.classIndex
 		global.player_carSelction[1] = obj_carSelector.carIndex
+		if oldCar != global.player_currentCar{
+			global.player_topSpeedLevel = 0
+			global.player_accelerationLevel = 0
+			global.player_nitrousLevel = 0
+			global.player_transmissionLevel = 0
+			global.player_weightLevel = 0
+			with(obj_upgradeSlider){
+				barProgress = 0
+			}
+		}
          show_debug_message("✅ Upgrades purchased for $" + string(totalCost));
      } else {
          show_debug_message("❌ Not enough money!");

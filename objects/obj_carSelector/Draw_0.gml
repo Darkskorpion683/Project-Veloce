@@ -10,6 +10,10 @@ draw_sprite_ext(spr_carSelectArrow,0,x+150,y-200,2,2,0,c_white,1)
 draw_sprite_ext(spr_carSelectArrow,0,x+150,y-230,2,2,0,c_white,1)
 draw_sprite_ext(spr_carSelectArrow,0,x-150,y-200,2,2,180,c_white,1)
 draw_sprite_ext(spr_carSelectArrow,0,x-150,y-230,2,2,180,c_white,1)
+//color
+draw_text(x,y+150,selectedCar.color[colorIndex].str)
+draw_sprite_ext(spr_carSelectArrow,0,x-150,y+150,2,2,180,c_white,1)
+draw_sprite_ext(spr_carSelectArrow,0,x+150,y+150,2,2,0,c_white,1)
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
