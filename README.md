@@ -61,6 +61,8 @@ Smoke- Ethan
 Nitrous flame-Ethan
 
 Gauges- Arthur
+
+Tutorial - Ethan
 _________________________________________________
 ### Music
 In-game music:  hot racing track -Nick Tiegs 
