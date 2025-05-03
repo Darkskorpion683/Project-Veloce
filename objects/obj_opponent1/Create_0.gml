@@ -7,7 +7,10 @@ var statIndex = getRaceIndexFromClassLevel(currentClass, currentLevel);
 var statList = getStatsFromLevel(statIndex);
 
 currentCar = statList[global.raceIndex].car
-sprite_index = currentCar.color[irandom_range(0,3)].spr
+var colorArray = currentCar.color;
+var colorIndex = irandom(array_length(colorArray) - 1);
+sprite_index = colorArray[colorIndex].spr;
+
 xOffset = (sprite_get_width(sprite_index)/2)*(1-visualScale)
 
 x += xOffset
