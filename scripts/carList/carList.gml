@@ -9,9 +9,9 @@ function carList(){
 				baseAcceleration : .1,
 				weight : 3000,
 				class : "D",
-				leftWheel_x : 37,
-				rightWheel_x : 39,
-				y_offset : 9,
+				leftWheel_x : 33,
+				rightWheel_x : 35,
+				y_offset : 12,
 				color : [
 				{
 						str : "Red",
@@ -45,9 +45,9 @@ function carList(){
 				baseAcceleration : 0.12,
 				weight : 3050,
 				class : "D",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 36,
+				rightWheel_x : 38,
+				y_offset : 14,
 				color : [
 				{
 						str : "Red",
@@ -75,9 +75,9 @@ function carList(){
 				baseAcceleration : 0.11,
 				weight : 2930,
 				class : "D",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 37,
+				rightWheel_x : 37,
+				y_offset : 11,
 				color : [
 				{
 						str : "Red",
@@ -118,9 +118,9 @@ function carList(){
 				baseAcceleration : 0.13,
 				weight : 2900,
 				class : "C",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 35,
+				rightWheel_x : 40,
+				y_offset : 13,
 				color : [
 				{
 						str : "Red",
@@ -156,9 +156,9 @@ function carList(){
 				baseAcceleration : 0.14,
 				weight : 2800,
 				class : "C",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 32,
+				rightWheel_x : 38,
+				y_offset : 12,
 				color : [
 				{
 						str : "Police",
@@ -183,36 +183,6 @@ function carList(){
 				]
 			},
 			{
-				//5
-				carName : "BMW M3 F82",
-				price : 1190,
-				topSpeed : 82,
-				baseAcceleration : 0.16,
-				weight : 2700,
-				class : "C",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
-				color : [
-				{
-						str : "Red",
-						spr : spr_skyline_red
-				},
-				{
-						str : "Blue",
-						spr : spr_skyline_blue
-				},
-				{
-						str : "Gray",
-						spr : spr_skyline_grey
-				},
-				{
-						str : "White",
-						spr : spr_skyline_white
-				},
-				]
-			},
-			{
 				//6
 				carName : "Audi S6",
 				price : 1200,
@@ -220,9 +190,9 @@ function carList(){
 				baseAcceleration : 0.18,
 				weight : 2750,
 				class : "C",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 36,
+				rightWheel_x : 41,
+				y_offset : 12,
 				color : [
 				{
 						str : "Red",
@@ -285,9 +255,9 @@ function carList(){
 				baseAcceleration : 0.2,
 				weight : 2300,
 				class : "B",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 32,
+				rightWheel_x : 39,
+				y_offset : 11,
 				color : [
 				{
 						str : "Red",
@@ -315,9 +285,9 @@ function carList(){
 				baseAcceleration : 0.19,
 				weight : 2250,
 				class : "B",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 34,
+				rightWheel_x : 35,
+				y_offset : 9,
 				color : [
 				{
 						str : "Orange",
@@ -353,9 +323,9 @@ function carList(){
 				baseAcceleration : 0.2,
 				weight : 2000,
 				class : "B",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 40,
+				rightWheel_x : 33,
+				y_offset : 9,
 				color : [
 				{
 						str : "Red",
@@ -387,9 +357,9 @@ function carList(){
 				baseAcceleration : 0.19,
 				weight : 2100,
 				class : "B",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 34,
+				rightWheel_x : 38,
+				y_offset : 12,
 				color : [
 				{
 						str : "Red",
@@ -418,9 +388,9 @@ function carList(){
 				baseAcceleration : 0.3,
 				weight : 1500,
 				class : "A",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 40,
+				rightWheel_x : 32,
+				y_offset : 9,
 				color : [
 				{
 						str : "Red",
@@ -460,6 +430,26 @@ function carList(){
 						str : "Green",
 						spr : spr_huracan_green
 				},
+				{
+						str : "Black",
+						spr : spr_huracan_black
+				},
+				{
+						str : "Orange",
+						spr : spr_huracan_orange
+				},
+				{
+						str : "Red",
+						spr : spr_huracan_red
+				},
+				{
+						str : "White",
+						spr : spr_huracan_white
+				},
+				{
+						str : "Yellow",
+						spr : spr_huracan_yellow
+				},
 				]
 			},
 			{
@@ -470,9 +460,9 @@ function carList(){
 				baseAcceleration : 0.27,
 				weight : 1450,
 				class : "A",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 29,
+				rightWheel_x : 32,
+				y_offset : 9,
 				color : [{
 						str : "White",
 						spr : spr_porsche
@@ -488,9 +478,9 @@ function carList(){
 				baseAcceleration : 0.35,
 				weight : 1000,
 				class : "S",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 42,
+				rightWheel_x : 33,
+				y_offset : 7,
 				color : [
 				{
 						str : "Ferrari",
@@ -506,9 +496,9 @@ function carList(){
 				baseAcceleration : 0.35,
 				weight : 1000,
 				class : "S",
-				leftWheel_x : 4,
-				rightWheel_x : 1,
-				y_offset : 1,
+				leftWheel_x : 37,
+				rightWheel_x : 40,
+				y_offset : 14,
 				color : [
 				{
 						str : "Purple",
