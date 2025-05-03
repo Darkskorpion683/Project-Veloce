@@ -38,7 +38,11 @@ From here, you can continue racing the same race or choose another race.
 But be warned, the higher the level the race is, the harder the opponents get.
 ___________________________________________________________________________________________________
 ## Cheat Codes:
-***Press the 'pg up' key to gain 100 dollars***
+***Press the 'pg up' key to gain 10000 dollars***
+***Press the 'Home' key to go to the next race***
+***Press the 'Delete' key to enter Garage***
+***Press the 'End' key to return to race***
+***Press the 'pg down' key to head to the race map***
 ____________________________________________________________________________
 ## Licensing information
 ### artwork
