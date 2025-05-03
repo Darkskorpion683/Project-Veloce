@@ -18,7 +18,7 @@ topSpeed = global.player_currentCar.topSpeed + global.player_topSpeed
 weight = global.player_currentCar.weight + global.player_weight
 nitrous = global.player_nitrous
 transmission = global.player_transmission
-sprite_index = global.player_currentCar.color[0].spr
+sprite_index = global.player_currentCar.color[global.player_carColor].spr
 
 nitrous_used=false;
 nitrous_activated=false;

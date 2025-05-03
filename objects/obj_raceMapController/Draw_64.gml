@@ -1,4 +1,4 @@
-display_set_gui_size(544, 306);
+display_set_gui_size(800, 450);
 btnXWidth = 160
 btnYHeight = 40
 drawx = 0
@@ -22,8 +22,11 @@ garageMenuSelected = false
 if(!garageMenuSelected){
 	draw_set_alpha(0.5)
 }
-draw_set_color(c_red)
+draw_set_color(c_dkgray)
 draw_rectangle(drawx,drawy, drawx+160, drawy+40, false);
+draw_set_valign(fa_middle)
+draw_set_color(c_white)
+draw_text(drawx + btnXWidth/2, drawy + btnYHeight/2, "Garage");
 
 btnXWidth = 225
 btnYHeight = 200
@@ -73,3 +76,32 @@ for(var i = 1; i <= array_length(mapInfo); i++){
 	}
 	
 }
+
+if (mx > display_get_gui_width()-215 - sprite_get_width(spr_carSelectArrow) && mx < display_get_gui_width()-215 + sprite_get_width(spr_carSelectArrow) &&
+    my > display_get_gui_height()-180 - sprite_get_height(spr_carSelectArrow) && my < display_get_gui_height()-180 + sprite_get_height(spr_carSelectArrow)) {
+		if(mouse_check_button_pressed(mb_left)){
+			if raceSelection <= 0 {
+					raceSelection = array_length(raceClass)-1
+				}
+				else{
+					raceSelection--
+				}
+				frameIndex = 0
+		}	
+}
+
+if (mx > display_get_gui_width()-10 - sprite_get_width(spr_carSelectArrow) && mx < display_get_gui_width()-10 + sprite_get_width(spr_carSelectArrow) &&
+    my > display_get_gui_height()-180 - sprite_get_height(spr_carSelectArrow) && my < display_get_gui_height()-180 + sprite_get_height(spr_carSelectArrow)) {
+		if(mouse_check_button_pressed(mb_left)){
+				if raceSelection >= array_length(raceClass)-1 {
+						raceSelection = 0
+					}
+					else{
+						raceSelection++
+					}
+					frameIndex = 0
+		}
+}
+
+draw_sprite_ext(spr_carSelectArrow,0,display_get_gui_width()-215,display_get_gui_height()-180,2,2,180,c_white,1)
+draw_sprite_ext(spr_carSelectArrow,0,display_get_gui_width()-10,display_get_gui_height()-180,2,2,0,c_white,1)

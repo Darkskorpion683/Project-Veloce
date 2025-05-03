@@ -46,23 +46,23 @@ function raceMapGetInfo(_class,_index){
 			}
 			switch _index{
 				case 5:
-				infoArray[5] = "Lemon Race"
+				infoArray[5] = "Warehouses"
 				infoArray[0] = true
 				break;
 				case 6:
-				infoArray[5] = "Qualifier's Race"
+				infoArray[5] = "Worker's Drag"
 				infoArray[0] = true
 				break;
 				case 7:
-				infoArray[5] = "Rookie Drag"
+				infoArray[5] = "Midnight Club"
 				infoArray[0] = true
 				break;
 				case 8:
-				infoArray[5] = "Fujiyama Circuit"
+				infoArray[5] = "0 to 60, 9 to 5"
 				infoArray[0] = true
 				break;
 				case 9:
-				infoArray[5] = "Qualifiers Race"
+				infoArray[5] = "Logistics Circuit"
 				infoArray[0] = true
 				break;
 			}
@@ -84,23 +84,23 @@ function raceMapGetInfo(_class,_index){
 			}
 			switch _index{
 				case 10:
-				infoArray[5] = "Lemon Race"
+				infoArray[5] = "City Exhibition"
 				infoArray[0] = true
 				break;
 				case 11:
-				infoArray[5] = "Qualifier's Race"
+				infoArray[5] = "Encore"
 				infoArray[0] = true
 				break;
 				case 12:
-				infoArray[5] = "Rookie Drag"
+				infoArray[5] = "Club Crawl"
 				infoArray[0] = true
 				break;
 				case 13:
-				infoArray[5] = "Fujiyama Circuit"
+				infoArray[5] = "Public Enemies"
 				infoArray[0] = true
 				break;
 				case 14:
-				infoArray[5] = "Qualifiers Race"
+				infoArray[5] = "Tokyo Drift"
 				infoArray[0] = true
 				break;
 			}
@@ -123,23 +123,23 @@ function raceMapGetInfo(_class,_index){
 			}
 			switch _index{
 				case 15:
-				infoArray[5] = "Lemon Race"
+				infoArray[5] = "Water Ways"
 				infoArray[0] = true
 				break;
 				case 16:
-				infoArray[5] = "Qualifier's Race"
+				infoArray[5] = "Burnout"
 				infoArray[0] = true
 				break;
 				case 17:
-				infoArray[5] = "Rookie Drag"
+				infoArray[5] = "Smuggler's Run"
 				infoArray[0] = true
 				break;
 				case 18:
-				infoArray[5] = "Fujiyama Circuit"
+				infoArray[5] = "Ocean Spray"
 				infoArray[0] = true
 				break;
 				case 19:
-				infoArray[5] = "Qualifiers Race"
+				infoArray[5] = "City Champion"
 				infoArray[0] = true
 				break;
 			}
@@ -162,23 +162,23 @@ function raceMapGetInfo(_class,_index){
 			}
 			switch _index{
 				case 20:
-				infoArray[5] = "Lemon Race"
+				infoArray[5] = "Challenger's Strip"
 				infoArray[0] = true
 				break;
 				case 21:
-				infoArray[5] = "Qualifier's Race"
+				infoArray[5] = "Champ's Revenge"
 				infoArray[0] = true
 				break;
 				case 22:
-				infoArray[5] = "Rookie Drag"
+				infoArray[5] = "Need For Speed"
 				infoArray[0] = true
 				break;
 				case 23:
-				infoArray[5] = "Fujiyama Circuit"
+				infoArray[5] = "Countryside Drag"
 				infoArray[0] = true
 				break;
 				case 24:
-				infoArray[5] = "Qualifiers Race"
+				infoArray[5] = "World Champion"
 				infoArray[0] = true
 				break;
 			}
