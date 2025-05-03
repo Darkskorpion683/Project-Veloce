@@ -2,7 +2,7 @@
 var credits = [
     ["Producer", "Gabe Herterich"],
     ["Designer", "Ethan Beeson"],
-    ["Artist", "Arthur Kansotinsly"],
+    ["Artist", "Arthur Khantivong"],
     ["Programmer", "John Gould"]
 ];
 draw_set_font(fnt_credits); 

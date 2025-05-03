@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_opponent3",
-    "path":"sprites/spr_opponent3/spr_opponent3.yy",
+    "name":"spr_skyline_white",
+    "path":"sprites/spr_skyline_white/spr_skyline_white.yy",
   },
   "spriteMaskId":null,
   "visible":true,

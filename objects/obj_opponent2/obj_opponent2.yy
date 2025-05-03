@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_opponent2",
-    "path":"sprites/spr_opponent2/spr_opponent2.yy",
+    "name":"spr_skyline_grey",
+    "path":"sprites/spr_skyline_grey/spr_skyline_grey.yy",
   },
   "spriteMaskId":null,
   "visible":true,
