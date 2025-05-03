@@ -54,9 +54,9 @@ Credits screen -Gabe Using ChatGPT
 
 Upgrade screen- John and Arthur
 
-Race tiles-Arthur
+Race tiles-Arthur modified chatGPT
 
-Cars - Arthur
+Cars - Arthur partially chatGPT modified
 
 Wheels-Arthur
 
