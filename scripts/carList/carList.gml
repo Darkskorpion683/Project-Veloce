@@ -17,6 +17,7 @@ function carList(){
 						str : "Red",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						spr : spr_180_red
 				},
 				{
@@ -34,6 +35,21 @@ function carList(){
 				{
 						str : "Orange",
 						spr : spr_180_orange
+=======
+						spr : spr_skyline_red
+				},
+				{
+						str : "Blue",
+						spr : spr_skyline_blue
+				},
+				{
+						str : "Gray",
+						spr : spr_skyline_grey
+				},
+				{
+						str : "White",
+						spr : spr_skyline_white
+>>>>>>> Stashed changes
 =======
 						spr : spr_skyline_red
 				},
@@ -84,6 +100,7 @@ function carList(){
 						str : "Red",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						spr : spr_civic_red
 				},
 				{
@@ -97,6 +114,21 @@ function carList(){
 				{
 						str : "White",
 						spr : spr_civic_white
+=======
+						spr : spr_skyline_red
+				},
+				{
+						str : "Blue",
+						spr : spr_skyline_blue
+				},
+				{
+						str : "Gray",
+						spr : spr_skyline_grey
+				},
+				{
+						str : "White",
+						spr : spr_skyline_white
+>>>>>>> Stashed changes
 =======
 						spr : spr_skyline_red
 				},
@@ -226,6 +258,7 @@ function carList(){
 				{
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						str : "Police",
 						spr : spr_mustang_ncshp
 				},
@@ -244,6 +277,22 @@ function carList(){
 				{
 						str : "Black",
 						spr : spr_mustang_black
+=======
+						str : "Red",
+						spr : spr_skyline_red
+				},
+				{
+						str : "Blue",
+						spr : spr_skyline_blue
+				},
+				{
+						str : "Gray",
+						spr : spr_skyline_grey
+				},
+				{
+						str : "White",
+						spr : spr_skyline_white
+>>>>>>> Stashed changes
 =======
 						str : "Red",
 						spr : spr_skyline_red
@@ -393,6 +442,7 @@ function carList(){
 						str : "Red",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						spr : spr_gtr_red
 				},
 				{
@@ -406,6 +456,21 @@ function carList(){
 				{
 						str : "White",
 						spr : spr_gtr_white
+=======
+						spr : spr_skyline_red
+				},
+				{
+						str : "Blue",
+						spr : spr_skyline_blue
+				},
+				{
+						str : "Gray",
+						spr : spr_skyline_grey
+				},
+				{
+						str : "White",
+						spr : spr_skyline_white
+>>>>>>> Stashed changes
 =======
 						spr : spr_skyline_red
 				},
@@ -527,6 +592,7 @@ function carList(){
 						str : "Red",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						spr : spr_challenger_red
 				},
 				{
@@ -543,6 +609,8 @@ function carList(){
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 						spr : spr_skyline_red
 				},
 				{
@@ -557,6 +625,9 @@ function carList(){
 						str : "White",
 						spr : spr_skyline_white
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -629,11 +700,14 @@ function carList(){
 				y_offset : 1,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				color : [{
 						str : "White",
 						spr : spr_porsche
 				}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 				color : [
