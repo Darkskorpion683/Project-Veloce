@@ -15,6 +15,6 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 //left wheel
-draw_sprite_ext(spr_defaultWheel, 0, x-(37*4), y+(9*4), 4, 4, 0, c_white, 1);
+draw_sprite_ext(spr_defaultWheel, 0, x-(selectedCar.leftWheel_x*4), y+(selectedCar.y_offset*4), 4, 4, 0, c_white, 4);
 //right wheel
-draw_sprite_ext(spr_defaultWheel, 0, x+(39*4), y+(9*4), 4, 4, 0, c_white, 1);
+draw_sprite_ext(spr_defaultWheel, 0, x+(selectedCar.rightWheel_x*4), y+(selectedCar.y_offset*4), 4, 4, 0, c_white, 4);

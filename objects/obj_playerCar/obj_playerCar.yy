@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_playerCar",
-    "path":"sprites/spr_playerCar/spr_playerCar.yy",
+    "name":"spr_skyline_red",
+    "path":"sprites/spr_skyline_red/spr_skyline_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,
