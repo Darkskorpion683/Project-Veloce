@@ -56,7 +56,7 @@ Upgrade screen- John and Arthur
 
 Race tiles-Arthur modified chatGPT
 
-Cars - Arthur partially chatGPT modified
+Cars - Arthur using chatGPT
 
 Wheels-Arthur
 
@@ -67,6 +67,10 @@ Nitrous flame-Ethan
 Gauges- Arthur
 
 Tutorial - Ethan
+
+Clouds - [Clouds and Backgrounds by talhagulbahar](https://talhagulbahar.itch.io/clouds-and-backgrounds)
+
+Background grass - adapted and modified from [Nature Landscapes Free Pixel Art](https://free-game-assets.itch.io/nature-landscapes-free-pixel-art) [License](https://craftpix.net/file-licenses/)
 _________________________________________________
 ### Music
 In-game music:  hot racing track -Nick Tiegs 
