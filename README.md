@@ -5,20 +5,17 @@ _________________________________________________
 Project Veloce is a high-stakes racing experience 
 Built on precise, timing-based drag racing.
 _________________________________________________
-Instructions:
+Instructions and Walkthrough:
 
 To access fullscreen ***Press F***
 
 Upon pressing play, you will enter a race selector that starts with one race and adds more as you play. 
 Once you have selected the map, the race will start shortly
 
-Before the race begins, you could gain an extra speed boost by spinning your wheels and releasing them and just before the race starts.
-
-***Hold down the 'c' key to begin wheel spin***
-
-***Release the 'c' key to end wheel spin***
+Before the race begins, you stall because of you car's wheels spinning out. Reduce weight to stall less.
 
 Once the race has begun, you will rapidly gain speed. Once the needle reaches a certain desired rpm, you will need to upshift.
+The light indicators will tell you when to shift, as the last light comes on, this is the perfect shift timing.
 
 ***Press the 'e' key to upshift***
 
@@ -34,8 +31,8 @@ Once the race is concluded, you will gain money depending on what place you fini
 With the money gained, you can look to upgrade your vehicle
 
 Upon entering the garage, you can spend your money on any of the available upgrades, or you can look to purchase a new car altogether 
-From here, you can continue racing the same race or choose another race.
-But be warned, the higher the level the race is, the harder the opponents get.
+From here, you can continue racing new levels of the same track to unlock new tracks.
+But be warned, the higher the level the race is, the harder the opponents get. Therefore upgrading and buying new cars is essential.
 ___________________________________________________________________________________________________
 ## Cheat Codes:
 ***Press the 'pg up' key to gain 10000 dollars***
@@ -60,9 +57,9 @@ Cars - Arthur using chatGPT
 
 Wheels-Arthur
 
-Smoke- Ethan
+Smoke- https://govfx.itch.io/realistic-smoke-vfx-free-pack
 
-Nitrous flame-Ethan
+Nitrous flame- https://www.deviantart.com/boltanim/art/Fire-Effect-FX-sprite-sheet-NZC-effect-1124402217
 
 Gauges- Arthur
 
